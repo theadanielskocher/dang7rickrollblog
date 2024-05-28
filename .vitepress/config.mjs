@@ -1,18 +1,18 @@
 import { defineConfig } from 'vitepress'
-// import mathjax3 from 'markdown-it-mathjax3';
 
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
   title: "dang7rickroll's website",
-  description: "Một programmer gà",
+ // description: "Một programmer gà",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+  //    { text: 'Home', link: '/' },
       { text: 'Posts', link: '/posts/' },
       { text: 'About', link: '/about' },
-      { text: 'Markdown Editor', link: '/markdowneditor'}
+      { text: 'Markdown Editor', link: '/markdowneditor.md'},
+      { text: 'Music', link: '/music'}
     ],
 
     // sidebar: [
@@ -27,7 +27,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/theadanielskocher' },
-      { icon: 'discord', link: 'discordapp.com/users/742284158797086741'}
+      { icon: 'facebook', link: 'https://facebook.com/godnient'}
     ],
 
       search: {
@@ -42,10 +42,10 @@ export default defineConfig({
 
 
    markdown: {
-     math: true
+        math : true
    },
 
-  lastUpdated: true
+  lastUpdated: false
 
 }
 )

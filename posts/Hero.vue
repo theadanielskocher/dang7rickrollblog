@@ -28,7 +28,7 @@ export default {
 
 <style>
 h2.subtitle {
-  font-size: 1.2rem;
+  font-size: 18px;
   border-top: none;
 }
 </style>

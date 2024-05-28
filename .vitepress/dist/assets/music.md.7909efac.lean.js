@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e,Q as s}from"./chunks/framework.1484e472.js";const f=JSON.parse('{"title":"Just for music","description":"","frontmatter":{},"headers":[],"relativePath":"music.md","filePath":"music.md"}'),r={name:"music.md"},o=s("",8),c=[o];function i(n,h,l,u,_,m){return a(),e("div",null,c)}const d=t(r,[["render",i]]);export{f as __pageData,d as default};

@@ -1,4 +1,4 @@
-<script setup<%= useTs ? ' lang="ts"' : '' %>>
+<script setup<%= useTs ? ' lang="ts"' : '' %>
 import { useData } from 'vitepress'
 
 // https://vitepress.dev/reference/runtime-api#usedata
